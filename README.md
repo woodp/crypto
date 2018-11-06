@@ -26,7 +26,7 @@ Collaborators won’t automatically see updates to submodules — if you update 
 ## Forking & pull requests
 Forking will fork only the parent repo, and leave the submodules at the original user.
 
-So, that means that for *Pull requests* on a submodule, the submodule needs to be forked. When the PR is merged you need additional steps: 
+A submodule can be forked. When the PR of that fork is merged you need additional steps: 
  - updating the parent repo with *git submodule update --remote*
  - commiting and pushing the changes on the parent repo
 
